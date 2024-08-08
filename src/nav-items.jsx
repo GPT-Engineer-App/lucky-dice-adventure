@@ -1,4 +1,4 @@
-import { DiceIcon } from "lucide-react";
+import { Dice } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -8,7 +8,7 @@ export const navItems = [
   {
     title: "Dice Gambler",
     to: "/",
-    icon: <DiceIcon className="h-4 w-4" />,
+    icon: <Dice className="h-4 w-4" />,
     page: <Index />,
   },
 ];
